@@ -1,0 +1,56 @@
+Result: 1948.0376967574432
+Number of generations: 10. number of crosses in single iteration: 3
+H - C - B - V - M - J - I - U - D - R - L - G - K - A - P - U - E - T - S - F - N - O on 13-04-2018 00:22
+
+Result: 2038.3320025357496
+Number of generations: 10. number of crosses in single iteration: 3
+H - A - L - G - M - I - F - U - O - D - T - V - B - U - J - N - K - C - P - R - S - E on 13-04-2018 00:22
+
+Result: 2131.900741401833
+Number of generations: 10. number of crosses in single iteration: 3
+P - U - N - C - M - L - S - H - B - E - U - O - D - J - I - T - R - G - K - V - A - F on 13-04-2018 00:22
+
+Result: 2166.26200726612
+Number of generations: 10. number of crosses in single iteration: 3
+P - K - C - O - F - M - V - E - N - S - T - D - A - G - R - B - L - U - J - U - I - H on 13-04-2018 00:22
+
+Result: 1836.6077768321563
+Number of generations: 10. number of crosses in single iteration: 3
+R - P - F - M - T - I - V - E - U - B - C - G - S - H - J - L - K - D - A - U - O - N on 13-04-2018 00:23
+
+Result: 1577.5240936494563
+Number of generations: 1000. number of crosses in single iteration: 30
+U - E - G - R - A - I - U - J - D - L - P - H - N - S - K - T - O - F - M - B - C - V on 13-04-2018 00:23
+
+Result: 1599.4054746959416
+Number of generations: 1000. number of crosses in single iteration: 30
+G - R - S - V - E - C - L - A - J - D - M - I - T - O - N - K - U - U - F - B - P - H on 13-04-2018 00:30
+
+Result: 2109.5756461747083
+Number of generations: 10000. number of crosses in single iteration: 300
+N - T - K - S - L - V - D - U - H - M - F - I - O - P - R - E - G - B - A - J - C - U on 13-04-2018 00:30
+
+Result: 2071.1637049810406
+Number of generations: 10000. number of crosses in single iteration: 300
+D - U - G - K - C - L - I - F - P - M - J - B - T - H - R - S - E - U - V - A - N - O on 13-04-2018 00:31
+
+Result: 1821.02522489054
+Number of generations: 100000. number of crosses in single iteration: 30
+V - U - G - N - I - U - R - A - P - C - S - B - O - T - K - M - H - L - F - J - D - E on 13-04-2018 00:32
+
+Result: 2033.6587862147726
+Number of generations: 1000. number of crosses in single iteration: 30
+L - S - H - I - G - C - E - U - F - U - A - K - N - M - T - B - P - R - J - D - O - V on 13-04-2018 00:32
+
+Result: 1992.9115313103352
+Number of generations: 100000. number of crosses in single iteration: 10
+O - B - C - H - V - F - I - U - D - J - A - G - K - M - R - P - U - S - L - T - N - E on 13-04-2018 00:33
+
+Result: 2047.5014217507098
+Number of generations: 100000. number of crosses in single iteration: 10
+T - E - B - P - I - D - U - S - A - M - J - C - G - L - R - F - O - V - N - H - K - U on 13-04-2018 00:33
+
+Result: 1964.9945722506366
+Number of generations: 1000. number of crosses in single iteration: 30
+I - V - F - T - O - L - R - U - A - H - D - J - P - B - E - U - N - K - M - C - G - S on 14-04-2018 10:37
+
