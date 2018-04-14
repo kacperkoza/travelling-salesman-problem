@@ -3,8 +3,8 @@ package komiwojazer
 import spock.lang.Specification
 import spock.lang.Unroll
 
-import static komiwojazer.TravelUtilsKt.calculateRouteLength
-import static komiwojazer.TravelUtilsKt.distanceBetweenCities
+import static komiwojazer.utils.TravelUtilsKt.calculateRouteLength
+import static komiwojazer.utils.TravelUtilsKt.distanceBetweenCities
 
 class TravelUtilsKtTest extends Specification {
 

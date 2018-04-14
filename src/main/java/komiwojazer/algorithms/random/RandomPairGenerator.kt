@@ -1,4 +1,4 @@
-package komiwojazer.random
+package komiwojazer.algorithms.random
 
 interface RandomPairGenerator {
 

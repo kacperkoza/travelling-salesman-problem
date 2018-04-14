@@ -1,8 +1,8 @@
-package komiwojazer.crossover
+package komiwojazer.algorithms.crossover
 
 import komiwojazer.Route
 
-class SimpleRouteCrossover : RouteCrossover{
+class OrderCrossover : RouteCrossover {
 
     override fun cross(first: Route, second: Route): Route {
         val citiesCount = first.cities.size
@@ -10,7 +10,6 @@ class SimpleRouteCrossover : RouteCrossover{
         val missingCitiesInFirstHalf = second.cities.filter { it !in slicedToHalf }
         slicedToHalf.addAll(missingCitiesInFirstHalf)
         return Route(slicedToHalf)
-
     }
 
 }

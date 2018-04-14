@@ -1,4 +1,7 @@
-package komiwojazer
+package komiwojazer.utils
+
+import komiwojazer.City
+import komiwojazer.Route
 
 
 fun distanceBetweenCities(first: City, second: City): Double {

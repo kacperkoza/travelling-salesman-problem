@@ -1,6 +1,6 @@
 package komiwojazer
 
-import komiwojazer.random.RandomPairGenerator
+import komiwojazer.algorithms.random.RandomPairGenerator
 import kotlin.Pair
 
 class DummyRandomPairGenerator implements RandomPairGenerator {

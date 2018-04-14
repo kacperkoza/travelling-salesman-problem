@@ -1,8 +1,14 @@
 package komiwojazer
 
-import komiwojazer.crossover.SimpleRouteCrossover
-import komiwojazer.random.NearbyPairsGenerator
-import komiwojazer.random.SecureRandomPairGenerator
+import komiwojazer.algorithms.crossover.OrderCrossover
+import komiwojazer.algorithms.crossover.PartiallyMatchedCrossover
+import komiwojazer.algorithms.mutator.RandomCityNumberMutator
+import komiwojazer.algorithms.mutator.TwoCityRouteMutator
+import komiwojazer.algorithms.random.NearbyPairsGenerator
+import komiwojazer.algorithms.random.SecureRandomPairGenerator
+import komiwojazer.utils.FileWriter
+import komiwojazer.utils.RouteGenerator
+import komiwojazer.utils.calculateRouteLength
 
 /**
  * algorytm genetyczny dla problemu komiwojazera
@@ -17,13 +23,16 @@ import komiwojazer.random.SecureRandomPairGenerator
 object Zad2 {
 
     // dane wejściowe
-    private const val NUMBER_OF_GENERATIONS = 1000
+    private const val NUMBER_OF_GENERATIONS = 10000000
     private const val NUMBER_OF_CROSS_IN_SINGLE_ITERATION = 30
     private val properties = GeneticAlgorithmProperties(NUMBER_OF_GENERATIONS, NUMBER_OF_CROSS_IN_SINGLE_ITERATION)
 
     // algorytmy
-    private val routeCross = SimpleRouteCrossover()
-    private val routeMutator = RouteMutator(NearbyPairsGenerator())
+    private val routeCross = OrderCrossover()
+//    private val routeCross = PartiallyMatchedCrossover(SecureRandomPairGenerator())
+
+    private val routeMutator = TwoCityRouteMutator(NearbyPairsGenerator())
+//    private val routeMutator = RandomCityNumberMutator()
 
     // narzedzia
     private val randomPairGenerator = SecureRandomPairGenerator()
@@ -39,11 +48,12 @@ object Zad2 {
                 val (first, second) = randomPairGenerator.getRandomPair(routes.size)
                 val newRoute = routeCross.cross(routes[first], routes[second])
                 routes.add(newRoute)
+                routes.add(routeCross.cross(routes[first], routes[second]))
             }
 
             // swap two cities in route
             val (i, route) = routes.getRandomElementWithIndex()
-            routes[i] = routeMutator.swapTwoCities(route)
+            routes[i] = routeMutator.mutate(route)
 
             //sort routes
             routes.sortBy { calculateRouteLength(it) }
@@ -51,7 +61,6 @@ object Zad2 {
             //remove the worst
             routes = routes.take(routes.size - NUMBER_OF_CROSS_IN_SINGLE_ITERATION).toMutableList()
 
-//            println(routes.writeAsString())
         }
 
         writer.writeToFileWithTimeStamp(routes[0], properties)
@@ -64,4 +73,10 @@ data class GeneticAlgorithmProperties(
         val numberOfGenerations: Int,
         val numberOfCrossesInSingleGeneration: Int
 )
+
+fun <T> MutableList<T>.getRandomElementWithIndex(): Pair<Int, T> {
+    val index = secureRandom.nextInt(size - 1)
+    val element = get(index)
+    return Pair(index, element)
+}
 

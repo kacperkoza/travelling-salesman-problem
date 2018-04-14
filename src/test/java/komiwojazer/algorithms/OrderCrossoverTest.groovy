@@ -1,12 +1,14 @@
-package komiwojazer.crossover
+package komiwojazer.algorithms
 
 import komiwojazer.City
 import komiwojazer.Route
+import komiwojazer.algorithms.crossover.OrderCrossover
+import komiwojazer.algorithms.crossover.RouteCrossover
 import spock.lang.Specification
 
-class SimpleRouteCrossoverTest extends Specification {
+class OrderCrossoverTest extends Specification {
 
-    RouteCrossover routeCross = new SimpleRouteCrossover()
+    RouteCrossover routeCross = new OrderCrossover()
 
     def 'should cross two routes'() {
         given:

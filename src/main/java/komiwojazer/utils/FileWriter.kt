@@ -1,5 +1,7 @@
-package komiwojazer
+package komiwojazer.utils
 
+import komiwojazer.GeneticAlgorithmProperties
+import komiwojazer.Route
 import org.apache.commons.io.FileUtils
 import org.joda.time.DateTime
 import java.io.File

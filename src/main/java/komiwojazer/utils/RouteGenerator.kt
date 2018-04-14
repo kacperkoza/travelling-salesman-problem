@@ -1,5 +1,7 @@
-package komiwojazer
+package komiwojazer.utils
 
+import komiwojazer.City
+import komiwojazer.Route
 import java.util.*
 
 object RouteGenerator {

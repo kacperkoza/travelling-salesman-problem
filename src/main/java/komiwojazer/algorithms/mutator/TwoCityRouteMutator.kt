@@ -1,19 +1,18 @@
-package komiwojazer
+package komiwojazer.algorithms.mutator
 
-import komiwojazer.random.RandomPairGenerator
+import komiwojazer.Route
+import komiwojazer.algorithms.random.RandomPairGenerator
 
-class RouteMutator(
+class TwoCityRouteMutator(
         private val randomPairGenerator: RandomPairGenerator
-) {
+): RouteMutator {
 
-    fun swapTwoCities(route: Route): Route {
+    override fun mutate(route: Route): Route {
         val (firstIndex, secondIndex) = randomPairGenerator.getRandomPair(route.cities.size - 1)
         val cities = route.cities.swap(firstIndex, secondIndex)
         return Route(cities)
     }
-
 }
-
 
 fun <T> MutableList<T>.swap(firstIndex: Int, secondIndex: Int): MutableList<T> {
     val temp: T = this[firstIndex]
@@ -22,8 +21,6 @@ fun <T> MutableList<T>.swap(firstIndex: Int, secondIndex: Int): MutableList<T> {
     return this
 }
 
-fun <T> MutableList<T>.getRandomElementWithIndex(): Pair<Int, T> {
-    val index = secureRandom.nextInt(size - 1)
-    val element = get(index)
-    return Pair(index, element)
-}
+
+
+

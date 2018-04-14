@@ -1,4 +1,4 @@
-package komiwojazer.crossover
+package komiwojazer.algorithms.crossover
 
 import komiwojazer.Route
 
