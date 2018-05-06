@@ -1,104 +1,120 @@
-Result: 1948.0376967574432
-Number of generations: 10. number of crosses in single iteration: 3
-H - C - B - V - M - J - I - U - D - R - L - G - K - A - P - U - E - T - S - F - N - O on 13-04-2018 00:22
+Result: 2130.441431391894 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 3
+18 - 10 - 4 - 21 - 2 - 0 - 11 - 15 - 12 - 14 - 3 - 8 - 5 - 7 - 13 - 17 - 9 - 16 - 19 - 6 - 1 - 20 on 14-04-2018 23:39
 
-Result: 2038.3320025357496
-Number of generations: 10. number of crosses in single iteration: 3
-H - A - L - G - M - I - F - U - O - D - T - V - B - U - J - N - K - C - P - R - S - E on 13-04-2018 00:22
+Result: 2126.9722251390635 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 3
+6 - 1 - 7 - 9 - 10 - 17 - 16 - 18 - 3 - 15 - 5 - 19 - 2 - 4 - 12 - 21 - 13 - 0 - 11 - 8 - 14 - 20 on 14-04-2018 23:39
 
-Result: 2131.900741401833
-Number of generations: 10. number of crosses in single iteration: 3
-P - U - N - C - M - L - S - H - B - E - U - O - D - J - I - T - R - G - K - V - A - F on 13-04-2018 00:22
+Result: 1823.618300478298 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 3
+9 - 7 - 16 - 0 - 1 - 13 - 20 - 21 - 10 - 6 - 2 - 12 - 15 - 14 - 4 - 18 - 11 - 19 - 17 - 8 - 5 - 3 on 14-04-2018 23:39
 
-Result: 2166.26200726612
-Number of generations: 10. number of crosses in single iteration: 3
-P - K - C - O - F - M - V - E - N - S - T - D - A - G - R - B - L - U - J - U - I - H on 13-04-2018 00:22
+Result: 1946.6314051094955 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 3
+4 - 21 - 8 - 7 - 19 - 20 - 15 - 1 - 11 - 10 - 13 - 9 - 3 - 5 - 14 - 18 - 6 - 2 - 16 - 17 - 0 - 12 on 14-04-2018 23:39
 
-Result: 1836.6077768321563
-Number of generations: 10. number of crosses in single iteration: 3
-R - P - F - M - T - I - V - E - U - B - C - G - S - H - J - L - K - D - A - U - O - N on 13-04-2018 00:23
+Result: 2111.645575219234 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 10
+2 - 18 - 20 - 13 - 1 - 11 - 0 - 15 - 14 - 12 - 8 - 6 - 5 - 9 - 16 - 17 - 19 - 4 - 3 - 7 - 10 - 21 on 14-04-2018 23:39
 
-Result: 1577.5240936494563
-Number of generations: 1000. number of crosses in single iteration: 30
-U - E - G - R - A - I - U - J - D - L - P - H - N - S - K - T - O - F - M - B - C - V on 13-04-2018 00:23
+Result: 2032.7549131309659 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 10
+4 - 21 - 14 - 3 - 17 - 2 - 10 - 1 - 16 - 15 - 8 - 5 - 9 - 20 - 11 - 12 - 7 - 18 - 13 - 19 - 6 - 0 on 14-04-2018 23:39
 
-Result: 1599.4054746959416
-Number of generations: 1000. number of crosses in single iteration: 30
-G - R - S - V - E - C - L - A - J - D - M - I - T - O - N - K - U - U - F - B - P - H on 13-04-2018 00:30
+Result: 2053.963331449659 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 10
+9 - 21 - 20 - 4 - 19 - 3 - 0 - 15 - 14 - 5 - 12 - 11 - 1 - 6 - 16 - 18 - 7 - 8 - 2 - 17 - 13 - 10 on 14-04-2018 23:39
 
-Result: 2109.5756461747083
-Number of generations: 10000. number of crosses in single iteration: 300
-N - T - K - S - L - V - D - U - H - M - F - I - O - P - R - E - G - B - A - J - C - U on 13-04-2018 00:30
+Result: 1916.303550581335 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 10
+12 - 0 - 9 - 20 - 13 - 4 - 17 - 16 - 11 - 3 - 14 - 2 - 18 - 7 - 19 - 6 - 10 - 21 - 8 - 15 - 5 - 1 on 14-04-2018 23:40
 
-Result: 2071.1637049810406
-Number of generations: 10000. number of crosses in single iteration: 300
-D - U - G - K - C - L - I - F - P - M - J - B - T - H - R - S - E - U - V - A - N - O on 13-04-2018 00:31
+Result: 1688.361793660018 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 30
+2 - 0 - 16 - 1 - 4 - 6 - 14 - 18 - 11 - 17 - 3 - 12 - 9 - 5 - 8 - 15 - 20 - 21 - 13 - 19 - 7 - 10 on 14-04-2018 23:40
 
-Result: 1821.02522489054
-Number of generations: 100000. number of crosses in single iteration: 30
-V - U - G - N - I - U - R - A - P - C - S - B - O - T - K - M - H - L - F - J - D - E on 13-04-2018 00:32
+Result: 1696.4526912829347 run with PartiallyMatchedCrossover
+Number of generations: 5000. number of crosses in single iteration: 30
+2 - 17 - 0 - 16 - 18 - 6 - 4 - 20 - 13 - 8 - 11 - 7 - 14 - 9 - 12 - 1 - 10 - 21 - 19 - 5 - 15 - 3 on 14-04-2018 23:41
 
-Result: 2033.6587862147726
-Number of generations: 1000. number of crosses in single iteration: 30
-L - S - H - I - G - C - E - U - F - U - A - K - N - M - T - B - P - R - J - D - O - V on 13-04-2018 00:32
+Result: 1834.5146688899017 run with PartiallyMatchedCrossover
+Number of generations: 10. number of crosses in single iteration: 30
+18 - 15 - 3 - 9 - 6 - 10 - 21 - 20 - 4 - 13 - 8 - 17 - 7 - 16 - 12 - 5 - 19 - 14 - 11 - 2 - 1 - 0 on 14-04-2018 23:44
 
-Result: 1992.9115313103352
-Number of generations: 100000. number of crosses in single iteration: 10
-O - B - C - H - V - F - I - U - D - J - A - G - K - M - R - P - U - S - L - T - N - E on 13-04-2018 00:33
+Result: 1782.1468348148312 run with PartiallyMatchedCrossover
+Number of generations: 10. number of crosses in single iteration: 30
+8 - 3 - 6 - 11 - 17 - 16 - 10 - 20 - 21 - 14 - 13 - 1 - 18 - 19 - 12 - 0 - 7 - 15 - 5 - 9 - 4 - 2 on 14-04-2018 23:44
 
-Result: 2047.5014217507098
-Number of generations: 100000. number of crosses in single iteration: 10
-T - E - B - P - I - D - U - S - A - M - J - C - G - L - R - F - O - V - N - H - K - U on 13-04-2018 00:33
+Result: 1594.3955819089745 run with PartiallyMatchedCrossover
+Number of generations: 10. number of crosses in single iteration: 30
+7 - 19 - 14 - 15 - 12 - 0 - 9 - 5 - 8 - 11 - 16 - 6 - 2 - 21 - 20 - 3 - 10 - 4 - 13 - 18 - 1 - 17 on 14-04-2018 23:44
 
-Result: 1964.9945722506366
-Number of generations: 1000. number of crosses in single iteration: 30
-I - V - F - T - O - L - R - U - A - H - D - J - P - B - E - U - N - K - M - C - G - S on 14-04-2018 10:37
+Result: 1921.5779861980304 run with PartiallyMatchedCrossover
+Number of generations: 10. number of crosses in single iteration: 30
+21 - 2 - 6 - 1 - 9 - 14 - 5 - 19 - 4 - 15 - 8 - 0 - 7 - 12 - 20 - 16 - 11 - 17 - 3 - 18 - 10 - 13 on 14-04-2018 23:44
 
-Result: 1633.9849276717227
-Number of generations: 1000. number of crosses in single iteration: 30
-1 - 17 - 16 - 14 - 19 - 2 - 6 - 4 - 21 - 18 - 0 - 11 - 9 - 5 - 7 - 3 - 15 - 8 - 12 - 10 - 20 - 13 on 14-04-2018 21:02
+Result: 1828.694218350954 run with PartiallyMatchedCrossover
+Number of generations: 10. number of crosses in single iteration: 30
+6 - 4 - 21 - 14 - 15 - 0 - 3 - 19 - 7 - 17 - 20 - 2 - 10 - 16 - 11 - 1 - 18 - 13 - 8 - 9 - 5 - 12 on 14-04-2018 23:44
 
-Result: 1918.8348962213881
-Number of generations: 1000. number of crosses in single iteration: 30
-6 - 4 - 10 - 17 - 5 - 3 - 8 - 0 - 7 - 19 - 1 - 18 - 12 - 9 - 16 - 11 - 2 - 15 - 13 - 21 - 20 - 14 on 14-04-2018 21:03
+Result: 1955.8672408102786 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+9 - 12 - 7 - 15 - 20 - 17 - 16 - 11 - 10 - 2 - 18 - 14 - 8 - 21 - 13 - 4 - 3 - 0 - 1 - 6 - 19 - 5 on 14-04-2018 23:44
 
-Result: 1923.239642663304
-Number of generations: 1000. number of crosses in single iteration: 30
-15 - 8 - 5 - 6 - 10 - 2 - 11 - 7 - 20 - 3 - 12 - 18 - 21 - 13 - 9 - 19 - 14 - 4 - 17 - 0 - 16 - 1 on 14-04-2018 21:03
+Result: 1303.1567895705382 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+16 - 10 - 2 - 1 - 18 - 6 - 4 - 21 - 3 - 5 - 8 - 15 - 17 - 11 - 0 - 12 - 9 - 7 - 13 - 20 - 19 - 14 on 14-04-2018 23:57
 
-Result: 1438.6196184513847
-Number of generations: 1000. number of crosses in single iteration: 30
-14 - 19 - 10 - 2 - 1 - 6 - 16 - 18 - 0 - 15 - 9 - 7 - 4 - 13 - 21 - 20 - 8 - 5 - 3 - 12 - 11 - 17 on 14-04-2018 21:03
+Result: 1435.4678769362765 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+14 - 19 - 10 - 2 - 17 - 11 - 0 - 12 - 7 - 18 - 4 - 21 - 20 - 13 - 8 - 15 - 9 - 1 - 6 - 16 - 3 - 5 on 14-04-2018 23:58
 
-Result: 1783.0921489483376
-Number of generations: 1000. number of crosses in single iteration: 30
-16 - 17 - 11 - 18 - 5 - 15 - 4 - 2 - 1 - 3 - 9 - 19 - 10 - 21 - 20 - 13 - 14 - 12 - 6 - 7 - 0 - 8 on 14-04-2018 21:03
+Result: 1509.8548814441267 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+17 - 9 - 3 - 12 - 20 - 13 - 14 - 21 - 4 - 6 - 7 - 0 - 1 - 2 - 10 - 18 - 11 - 16 - 5 - 19 - 15 - 8 on 14-04-2018 23:58
 
-Result: 2021.3390509388983
-Number of generations: 1000000. number of crosses in single iteration: 30
-6 - 11 - 20 - 13 - 5 - 21 - 4 - 10 - 2 - 17 - 12 - 8 - 7 - 14 - 18 - 1 - 0 - 19 - 15 - 9 - 3 - 16 on 14-04-2018 21:05
+Result: 1374.0817654027583 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+12 - 11 - 0 - 17 - 2 - 21 - 6 - 1 - 16 - 10 - 18 - 7 - 15 - 14 - 13 - 20 - 4 - 19 - 8 - 5 - 3 - 9 on 14-04-2018 23:58
 
-Result: 1301.1072920977074
-Number of generations: 1000. number of crosses in single iteration: 30
-2 - 7 - 6 - 12 - 17 - 11 - 16 - 0 - 18 - 1 - 4 - 20 - 10 - 21 - 13 - 19 - 14 - 8 - 15 - 5 - 3 - 9 on 14-04-2018 21:07
+Result: 1340.641843087476 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+16 - 11 - 18 - 19 - 14 - 10 - 13 - 20 - 21 - 4 - 9 - 3 - 12 - 0 - 17 - 2 - 6 - 1 - 7 - 8 - 15 - 5 on 14-04-2018 23:58
 
-Result: 1322.8060132887565
-Number of generations: 1000. number of crosses in single iteration: 30
-3 - 12 - 9 - 19 - 13 - 20 - 21 - 4 - 5 - 14 - 15 - 7 - 8 - 16 - 17 - 0 - 11 - 18 - 1 - 6 - 2 - 10 on 14-04-2018 21:08
+Result: 1158.627925564264 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+15 - 8 - 16 - 11 - 17 - 0 - 3 - 9 - 5 - 19 - 14 - 4 - 13 - 20 - 2 - 10 - 21 - 6 - 1 - 18 - 7 - 12 on 14-04-2018 23:58
 
-Result: 1178.60470837025
-Number of generations: 1000. number of crosses in single iteration: 30
-19 - 14 - 12 - 0 - 1 - 18 - 2 - 6 - 5 - 15 - 8 - 9 - 3 - 7 - 16 - 17 - 11 - 10 - 4 - 13 - 20 - 21 on 14-04-2018 21:08
+Result: 1619.5056208051328 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+1 - 9 - 15 - 8 - 12 - 0 - 18 - 6 - 19 - 5 - 3 - 7 - 21 - 13 - 4 - 10 - 16 - 17 - 11 - 2 - 20 - 14 on 14-04-2018 23:58
 
-Result: 1520.9933051668345
-Number of generations: 1000. number of crosses in single iteration: 10
-2 - 21 - 20 - 1 - 17 - 12 - 9 - 7 - 3 - 18 - 6 - 16 - 5 - 15 - 8 - 0 - 11 - 10 - 4 - 13 - 19 - 14 on 14-04-2018 21:08
+Result: 1356.1822445085072 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+0 - 16 - 10 - 20 - 4 - 13 - 7 - 3 - 5 - 9 - 8 - 12 - 17 - 11 - 6 - 18 - 1 - 2 - 21 - 14 - 19 - 15 on 14-04-2018 23:58
 
-Result: 1305.5344944611097
-Number of generations: 1000. number of crosses in single iteration: 10
-8 - 15 - 19 - 21 - 20 - 4 - 14 - 7 - 0 - 9 - 3 - 12 - 5 - 16 - 11 - 17 - 6 - 10 - 1 - 18 - 2 - 13 on 14-04-2018 21:08
+Result: 1601.9808657109734 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+1 - 21 - 13 - 4 - 20 - 2 - 6 - 19 - 16 - 18 - 10 - 8 - 14 - 12 - 3 - 11 - 17 - 0 - 7 - 5 - 15 - 9 on 14-04-2018 23:58
 
-Result: 1538.568974392315
-Number of generations: 1000. number of crosses in single iteration: 10
-5 - 8 - 9 - 12 - 1 - 17 - 11 - 13 - 21 - 2 - 6 - 20 - 4 - 14 - 15 - 19 - 10 - 18 - 7 - 3 - 0 - 16 on 14-04-2018 21:08
+Result: 1515.4628439112157 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+21 - 2 - 16 - 17 - 7 - 20 - 14 - 19 - 4 - 13 - 10 - 18 - 15 - 8 - 9 - 3 - 12 - 5 - 6 - 1 - 0 - 11 on 14-04-2018 23:58
+
+Result: 1529.6626392116466 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+9 - 11 - 17 - 0 - 7 - 12 - 3 - 8 - 19 - 18 - 1 - 6 - 5 - 15 - 21 - 4 - 13 - 20 - 14 - 16 - 10 - 2 on 14-04-2018 23:58
+
+Result: 1475.1203844808113 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+15 - 9 - 3 - 8 - 5 - 4 - 21 - 10 - 2 - 18 - 11 - 7 - 0 - 12 - 1 - 20 - 13 - 14 - 19 - 6 - 17 - 16 on 14-04-2018 23:59
+
+Result: 1439.9259857852223 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+21 - 17 - 7 - 11 - 12 - 3 - 19 - 14 - 5 - 9 - 15 - 8 - 6 - 18 - 2 - 13 - 20 - 4 - 10 - 1 - 16 - 0 on 14-04-2018 23:59
+
+Result: 1293.3001977454621 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+2 - 1 - 7 - 6 - 18 - 10 - 21 - 14 - 13 - 20 - 4 - 16 - 17 - 11 - 12 - 9 - 3 - 5 - 15 - 8 - 19 - 0 on 14-04-2018 23:59
 

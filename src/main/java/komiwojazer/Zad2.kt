@@ -2,7 +2,9 @@ package komiwojazer
 
 import komiwojazer.algorithms.crossover.OrderCrossover
 import komiwojazer.algorithms.crossover.PartiallyMatchedCrossover
+import komiwojazer.algorithms.crossover.RouteCrossover
 import komiwojazer.algorithms.mutator.RandomCityNumberMutator
+import komiwojazer.algorithms.mutator.RouteMutator
 import komiwojazer.algorithms.mutator.TwoCityRouteMutator
 import komiwojazer.algorithms.random.NearbyPairsGenerator
 import komiwojazer.algorithms.random.SecureRandomPairGenerator
@@ -23,16 +25,8 @@ import komiwojazer.utils.calculateRouteLength
 object Zad2 {
 
     // dane wejściowe
-    private const val NUMBER_OF_GENERATIONS = 10000000
+    private const val NUMBER_OF_GENERATIONS = 100
     private const val NUMBER_OF_CROSS_IN_SINGLE_ITERATION = 30
-    private val properties = GeneticAlgorithmProperties(NUMBER_OF_GENERATIONS, NUMBER_OF_CROSS_IN_SINGLE_ITERATION)
-
-    // algorytmy
-    private val routeCross = OrderCrossover()
-//    private val routeCross = PartiallyMatchedCrossover(SecureRandomPairGenerator())
-
-    private val routeMutator = TwoCityRouteMutator(NearbyPairsGenerator())
-//    private val routeMutator = RandomCityNumberMutator()
 
     // narzedzia
     private val randomPairGenerator = SecureRandomPairGenerator()
@@ -40,38 +34,69 @@ object Zad2 {
 
     @JvmStatic
     fun main(args: Array<String>) {
+//        runOrderCrossover()
+        runPartiallyMatchedCrossover()
+//        rundTwoCityMutator()
+//        runRandomCityMutator()
+    }
+
+    private fun runOrderCrossover() {
+        run(OrderCrossover(), null)
+    }
+
+    private fun runPartiallyMatchedCrossover() {
+        run(PartiallyMatchedCrossover(SecureRandomPairGenerator()), null)
+    }
+
+    private fun runTwoCityMutator() {
+        run(null, TwoCityRouteMutator(NearbyPairsGenerator()))
+    }
+
+    private fun runRandomCityMutator() {
+        run(null, RandomCityNumberMutator())
+    }
+
+    private fun run(routeCrossover: RouteCrossover?, mutator: RouteMutator?) {
+        val routeCross = routeCrossover
+        val routeMutator = mutator
         var routes: MutableList<Route> = RouteGenerator.generateRoutes()
-
+//        val TO_TAKE =
         (0..NUMBER_OF_GENERATIONS).forEach {
-            // cross random routes
             (0 until NUMBER_OF_CROSS_IN_SINGLE_ITERATION).forEach {
-                val (first, second) = randomPairGenerator.getRandomPair(routes.size)
-                val newRoute = routeCross.cross(routes[first], routes[second])
-                routes.add(newRoute)
-                routes.add(routeCross.cross(routes[first], routes[second]))
+                // cross random routes
+                routeCross?.let {
+                    val (first, second) = Zad2.randomPairGenerator.getRandomPair(routes.size)
+                    val f = routeCross.cross(routes[first], routes[second])
+                    val s = routeCross.cross(routes[second], routes[first])
+                    routes.add(f)
+                    routes.add(s)
+                }
+                // swap cities in route
+                routeMutator?.let {
+                    val (i, route) = routes.getRandomElementWithIndex()
+                    routes.add(routeMutator.mutate(route))
+                }
             }
-
-            // swap two cities in route
-            val (i, route) = routes.getRandomElementWithIndex()
-            routes[i] = routeMutator.mutate(route)
-
             //sort routes
             routes.sortBy { calculateRouteLength(it) }
 
             //remove the worst
-            routes = routes.take(routes.size - NUMBER_OF_CROSS_IN_SINGLE_ITERATION).toMutableList()
-
+            routes = routes.take(NUMBER_OF_CROSS_IN_SINGLE_ITERATION*2).toMutableList()
         }
-
+        val properties = GeneticAlgorithmProperties(
+                NUMBER_OF_GENERATIONS,
+                NUMBER_OF_CROSS_IN_SINGLE_ITERATION,
+                getAlgorithmName(routeCross?.javaClass ?: routeMutator!!.javaClass))
         writer.writeToFileWithTimeStamp(routes[0], properties)
-
     }
 
+    private fun getAlgorithmName(clazz: Class<*>): String = clazz.simpleName
 }
 
 data class GeneticAlgorithmProperties(
         val numberOfGenerations: Int,
-        val numberOfCrossesInSingleGeneration: Int
+        val numberOfCrossesInSingleGeneration: Int,
+        val algorithmName: String
 )
 
 fun <T> MutableList<T>.getRandomElementWithIndex(): Pair<Int, T> {

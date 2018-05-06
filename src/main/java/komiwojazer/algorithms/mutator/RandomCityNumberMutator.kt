@@ -7,7 +7,10 @@ class RandomCityNumberMutator : RouteMutator {
 
     override fun mutate(route: Route): Route {
         val cities = route.cities
-        val citiesCountToMutate = secureRandom.nextInt(cities.size - 1)
+        var citiesCountToMutate = secureRandom.nextInt(cities.size - 1)
+        while (citiesCountToMutate == 0) {
+            citiesCountToMutate = secureRandom.nextInt(cities.size - 1)
+        }
         val indexesToMutate = mutableListOf<Int>()
 
         while (indexesToMutate.size < citiesCountToMutate) {
@@ -17,7 +20,7 @@ class RandomCityNumberMutator : RouteMutator {
             }
         }
 
-        (0 until indexesToMutate.size).forEach {
+        (0 until indexesToMutate.size - 1).forEach {
             val firstIndex = indexesToMutate[secureRandom.nextInt(indexesToMutate.size - 1)]
             val secondIndex = indexesToMutate[secureRandom.nextInt(indexesToMutate.size - 1)]
             cities.swap(firstIndex, secondIndex)
