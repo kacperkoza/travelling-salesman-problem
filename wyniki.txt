@@ -118,3 +118,7 @@ Result: 1293.3001977454621 run with PartiallyMatchedCrossover
 Number of generations: 100. number of crosses in single iteration: 30
 2 - 1 - 7 - 6 - 18 - 10 - 21 - 14 - 13 - 20 - 4 - 16 - 17 - 11 - 12 - 9 - 3 - 5 - 15 - 8 - 19 - 0 on 14-04-2018 23:59
 
+Result: 1280.0656135594274 run with PartiallyMatchedCrossover
+Number of generations: 100. number of crosses in single iteration: 30
+21 - 4 - 13 - 20 - 5 - 9 - 3 - 10 - 14 - 19 - 15 - 8 - 12 - 7 - 0 - 11 - 16 - 6 - 18 - 1 - 2 - 17 on 13-05-2018 11:28
+

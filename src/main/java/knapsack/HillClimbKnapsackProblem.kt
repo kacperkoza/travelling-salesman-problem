@@ -2,15 +2,19 @@ package knapsack
 
 import knapsack.evaluator.HeuristicEvaluator
 import knapsack.neighbor.NeighborGenerator
+import java.security.SecureRandom
 
 class HillClimbKnapsackProblem(
         private val heuristicEvaluator: HeuristicEvaluator,
         private val neighborGenerator: NeighborGenerator
 ) {
 
+    private val secureRandom = SecureRandom()
+
     fun findSolution(items: MutableList<Item>, knapsack: Knapsack): Knapsack {
         var bestKnapsack = knapsack
-
+        val randomIndex = secureRandom.nextInt(items.size)
+        bestKnapsack.put(items[randomIndex])
         while (bestKnapsack.canBeAddedAnyOf(items) && !bestKnapsack.isFull()) {
             val possibleNewItems = generateNeighbors(items, bestKnapsack)
 
@@ -20,7 +24,6 @@ class HillClimbKnapsackProblem(
                 items.remove(bestKnapsack.items.last())
             }
         }
-        bestKnapsack.printSummary()
         return bestKnapsack
     }
 

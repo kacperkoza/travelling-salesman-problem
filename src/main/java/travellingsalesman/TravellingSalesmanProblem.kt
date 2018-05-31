@@ -34,10 +34,10 @@ object Zad2 {
 
     @JvmStatic
     fun main(args: Array<String>) {
-//        runOrderCrossover()
+        runOrderCrossover()
         runPartiallyMatchedCrossover()
-//        rundTwoCityMutator()
-//        runRandomCityMutator()
+        runTwoCityMutator()
+        runRandomCityMutator()
     }
 
     private fun runOrderCrossover() {
@@ -60,7 +60,6 @@ object Zad2 {
         val routeCross = routeCrossover
         val routeMutator = mutator
         var routes: MutableList<Route> = RouteGenerator.generateRoutes()
-//        val TO_TAKE =
         (0..NUMBER_OF_GENERATIONS).forEach {
             (0 until NUMBER_OF_CROSS_IN_SINGLE_ITERATION).forEach {
                 // cross random routes

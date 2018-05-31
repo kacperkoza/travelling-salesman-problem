@@ -12,12 +12,8 @@ class HeuristicAlgorithmTest extends Specification {
 
     def 'should find n queens solutions'() {
         given:
-        NQueensSolver solver = new GeneticSolver(
-                100,
-                3000,
-                new QueenCrossover(),
-                new QueenMutator(0.1d),
-                new HeuristicProvider()
+        NQueensSolver solver = new GeneticSolver(100, 3000,
+                new QueenCrossover(), new QueenMutator(0.1d), new HeuristicProvider()
         )
 
         when:
@@ -30,11 +26,7 @@ class HeuristicAlgorithmTest extends Specification {
 
     def 'should resolve n queens problem'() {
         given:
-        NQueensSolver solver = new AnnealingSolver(
-                10000,
-                1.0,
-                0.1,
-                new HeuristicProvider()
+        NQueensSolver solver = new AnnealingSolver(10000, 10, 0.1, new HeuristicProvider()
         )
 
         when:
